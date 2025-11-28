@@ -1,78 +1,9 @@
 # Ford GoBike System Data Exploration
-**Author: Pius Imwene**
+## by (Pius Imwene)
+## DataSet
 
-## Dataset Description
-This project explores the **Ford GoBike System Dataset**, provided by Udacity.  
-The original dataset contained **183,412 rows** and **16 features**.
-
-During the data wrangling process, several new features were engineered to support deeper analysis, including:
-
-- `participant_age`
-- `start_day`
-- `end_day`
-- `start_month`
-- `end_month`
-- `duration_hours`
-
-Additional cleaning steps included:
-- Removing missing values  
-- Correcting unrealistic birth years (e.g., replacing **1878** with **1978**)  
-- Addressing inconsistencies in datatype and formatting  
-
-After wrangling, the cleaned dataset contained:
-
-- **174,952 participants**  
-- **22 features**, including **13 numeric variables**
-
-To explore the data, three types of visualizations were used:
-- **Univariate** (distribution of single variables)  
-- **Bivariate** (relationships between two variables)  
-- **Multivariate** (relationships involving more than two variables)
-
----
-
+This project is used for exploring Ford GoBike System dataset. The dataset was provided by Udacity for the entire project. Before prliminarly wrangling, the dataset had 183,412 rows and 16 features. During wrangling, some features were added for example, participant_age, start_day, end_day, start_month, end_month, and durations_hours. In the processs of wranglings, missing values were removed and unrelastic year like 1878  was replaced by 1978. After wrangling, the number of participants remained were 174952 and 22 features. Out of 22 features, 13 features were numerics. Three visualizations were used to examine the distribution and relationship of the variables. Univariate visualisation used explore the distribution of features while bivariate visualisation used to investigate the relationship between two features.  Lastly, multiariate visualisations used to examine the relationship in more than two features.
 ## Summary of Findings
-
-### **1. Age vs Duration**
-There is a **weak positive relationship** between participant age and the duration of bike trips.  
-This suggests that **older participants tend to spend slightly more time completing a trip** compared to younger participants.
-
-### **2. Gender Differences**
-The findings show:
-- **Males generally complete trips faster** than females  
-- Females tend to take more time on average to complete the same distance
-
-### **3. Bike Sharing vs Non-Sharing**
-There was **no significant difference** between:
-- Participants who shared bikes for their trips, and  
-- Participants who did not share bikes  
-
-Both groups exhibited similar trip durations.
-
-### **4. User Types (Customer vs Subscriber)**
-There was **no major difference** in trip durations between customer types:
-- **Subscribers**
-- **Customers**
-
-### **5. Age Groups**
-Participants aged **25 to 40** completed trips **faster** than those aged **50+**.  
-This suggests younger riders tend to ride more efficiently or at a quicker pace.
-
----
-
+Based on the findings, there a weak relationship between the age of the participants  and durations time taken for riding bike.It means that an increase in age will lead to an increase of time for riding bike. Thus, old people tend to take more time to complete the trip. The findings also shows that more male spent less time complete the trip comapred to the female. The findings shows that there is no difference between participants who share bike for all the trip and the participants who dont share bike for all the trips in the trip. Also, there was no difference in the participants who are customers and subscribers. Based on the findings, the young participants having age between 25 and 40 years complete the trips fatser than participants with age above 50 years.
 ## Key Insights for Presentation
-
-For the presentation, the focus will be on the following variables:
-
-- **Trip duration**
-- **User type**
-- **Gender**
-- **Age**
-
-The visualizations include:
-- **Scatterplots** to analyze relationships between user type, gender, and trip duration  
-- **Box plots** to compare trip duration across groups  
-- **Histograms** to examine the distribution of trip duration (using log transformation for better visibility)
-
----
-
+On this presentation, I will mainly focus on the following variables to find their relationships. They include durations time for trip, the user type and gender of the participants. I will use the scatterplots and box pot to finding their trend or pattern.Additionally, i will use histogram to investigation the distributions of durations time in seconds after log transformation.
