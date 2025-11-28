@@ -42,7 +42,7 @@ The findings show:
 - **Males generally complete trips faster** than females  
 - Females tend to take more time on average to complete the same distance
 
-### 🔹 **3. Bike Sharing vs Non-Sharing**
+### **3. Bike Sharing vs Non-Sharing**
 There was **no significant difference** between:
 - Participants who shared bikes for their trips, and  
 - Participants who did not share bikes  
