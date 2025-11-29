@@ -1,5 +1,5 @@
-# Ford GoBike System Data Exploration
-## by (Pius Imwene)
+# Analysis of Ford GoBike Trips: EDA & Visualization Project
+## by Salvine Nambuye
 ## DataSet
 
 This project is used for exploring Ford GoBike System dataset. The dataset was provided by Udacity for the entire project. Before prliminarly wrangling, the dataset had 183,412 rows and 16 features. During wrangling, some features were added for example, participant_age, start_day, end_day, start_month, end_month, and durations_hours. In the processs of wranglings, missing values were removed and unrelastic year like 1878  was replaced by 1978. After wrangling, the number of participants remained were 174952 and 22 features. Out of 22 features, 13 features were numerics. Three visualizations were used to examine the distribution and relationship of the variables. Univariate visualisation used explore the distribution of features while bivariate visualisation used to investigate the relationship between two features.  Lastly, multiariate visualisations used to examine the relationship in more than two features.
